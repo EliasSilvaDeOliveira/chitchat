@@ -2,6 +2,10 @@
 #--- MAKE para ChitChat rAVA's project
 #
 
+#--- https://stackoverflow.com/questions/6648995/how-to-create-a-remote-git-repository-from-a-local-one
+
+
+
 #
 #--- Cloud da Embratel
 #
