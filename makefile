@@ -34,10 +34,11 @@ NOWEAVE	 =	noweave
 readME:
 	pdflatex chitchat-readME; bibtex chitchat-readME;
 	pdflatex chitchat-readME; pdflatex chitchat-readME;
-	latex2rtf -M12 -o README.rtf chitchat-readME
-	cp README.rtf README.md
+#	bibtool -x chitchat-readME.aux -o chitchat.bib
+#	pandoc --bibliography=chitchat.bib \
+		--wrap=preserve -o README.md chitchat-readME.tex
 
-doc:
+doc: readME
 	cp chitchat.nw chitchat.tex
 #---	Gera PDF
 	pdflatex chitchat; bibtex chitchat; 

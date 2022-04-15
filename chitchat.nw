@@ -41,6 +41,13 @@
 \label{introducao}
 \input{introducao-pt}
 
+\section{Estratégias Utilizadas}
+\subsection{Foco no {\it substantivo}  mais significativo}
+\subsection{Foco no par de {\it substantivos} mais significativos}
+
+\subsection{Foco em entidade nomeada}
+
+
 \begin{comment}
 
 \section{Como usar a interface Web}
