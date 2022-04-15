@@ -1,0 +1,44 @@
+%
+%--- README.md para ChitChat Project
+%    Conversa Fiada no rAVA
+%
+%
+\input{/home/elias/work/defs/defs}
+
+
+\documentclass[12pt,a4paper,portuguese]{article}
+\usepackage{babel,graphicx,color,verbatim,pstricks}
+\usepackage{eso-pic,enumerate,lineno,subfigure,paralist,bibunits}
+\usepackage{amsfonts,amssymb}
+\usepackage{pstricks,pst-node,pst-text}
+\usepackage{natbib}
+
+\usepackage{noweb}
+\usepackage{hyperref}
+\usepackage{hyphenat}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{pslatex}
+
+\title{Habilitando o {\rava} a Conversar Fiado}
+
+\author{Elias de Oliveira\\
+        {\tt elias\_oliveira@acm.org}}
+\date{\today}
+
+\input{../macros}
+
+\begin{document}
+\date{\today}
+\pagestyle{empty}
+\maketitle
+
+\section{Motivação}
+\label{introducao}
+\input{readme-pt}
+
+\bibliographystyle{apalike}
+\bibliography{\generalbib,\bookbib,\eliasbib,sample}
+
+\end{document}
